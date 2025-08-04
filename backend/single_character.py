@@ -1,1 +1,0 @@
-vscode-remote://ssh-remote%2Btest0.gpstrack.in/home/fleettrack/subhaashree/alphabet_recognition/single_character.py

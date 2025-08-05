@@ -1,7 +1,9 @@
-# character_recognition_with_update
+# character_recognition_with_user_feedback_update
 
 This project is a full-stack application for recognizing handwritten lowercase alphabet characters (a–z). 
+
 It consists of:
+
 Flask Backend: A Python-based API that uses a pre-trained Keras model to predict characters from images and store corrected images in a dataset.
 
 Flutter Frontend: A mobile app where users can draw characters, get predictions, and submit corrections.

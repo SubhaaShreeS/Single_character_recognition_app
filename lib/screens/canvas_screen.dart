@@ -8,10 +8,10 @@ class CanvasScreen extends StatefulWidget {
   const CanvasScreen({super.key});
 
   @override
-  State<CanvasScreen> createState() => _CanvasScreenState();
+  State<CanvasScreen> createState() => CanvasScreenState();
 }
 
-class _CanvasScreenState extends State<CanvasScreen> {
+class CanvasScreenState extends State<CanvasScreen> {
   List<Offset> points = [];
   GlobalKey canvasKey = GlobalKey();
   String prediction = '';
@@ -93,7 +93,7 @@ class _CanvasScreenState extends State<CanvasScreen> {
       resultWidgets.addAll([
         const SizedBox(height: 10),
         Text("Prediction: $prediction"),
-        Text("Confidence: ${confidence.toStringAsFixed(4)}"),
+        Text("Confidence: ${confidence.toStringAsFixed(2)}"),
       ]);
     }
 
